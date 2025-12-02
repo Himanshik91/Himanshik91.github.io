@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact — Himanshi Kathpal</title>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<a class="brand" href="/">Himanshi Kathpal</a>
+<nav class="nav">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/services.html">Services</a>
+<a href="/projects.html">Projects</a>
+<a href="/contact.html">Contact</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h1>Contact</h1>
+<p>Ready to start? Send a message or email directly.</p>
+
+
+<form action="https://formsubmit.co/himanshi.kathpal1991@gmail.com" method="POST">
+<!-- Use formsubmit.co as a free form backend (no server required) -->
+<input type="hidden" name="_captcha" value="false">
+<input type="text" name="name" placeholder="Your name" required>
+<input type="email" name="email" placeholder="Your email" required>
+<input type="text" name="subject" placeholder="Subject">
+<textarea name="message" placeholder="Tell me about your project..." required></textarea>
+<button class="btn" type="submit">Send message</button>
+</form>
+
+
+<div style="margin-top:18px">
+<p>Email: <a href="mailto:himanshi.kathpal1991@gmail.com">himanshi.kathpal1991@gmail.com</a></p>
+<p>Phone: +91-9811012915</p>
+</div>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">© <span id="year"></span> Himanshi Kathpal</div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
